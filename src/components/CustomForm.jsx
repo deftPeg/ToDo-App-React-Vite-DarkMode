@@ -1,11 +1,9 @@
 import { useState } from 'react';
 
 // library imports
-import {PlusIcon } from '@heroicons/react/24/solid'
+import { PlusIcon } from '@heroicons/react/24/solid'
 
-// create function component for the form
 const CustomForm = ({ addTask }) => {
-  // destructure the state be creating a task and setting task
   const [task, setTask] = useState("");
 
   const handleFormSubmit = (e) => {
