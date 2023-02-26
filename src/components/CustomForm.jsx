@@ -33,12 +33,12 @@ const CustomForm = ({ addTask }) => {
           required
           autoFocus
           maxLength={60}
-          placeholder="Enter Your Task"
+          placeholder="Enter Task"
         />
         <label
           htmlFor="task"
           className="label"
-        >Enter Your Task</label>
+        >Enter Task</label>
       </div>
       <button
         className="btn"
